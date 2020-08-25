@@ -83,7 +83,7 @@ class SearchBar extends HTMLElement {
         }
         </style>
         <div id="search-container" class="search-container">
-            <input placeholder="Search Gunung Tertinggi di JawaBarat" id="searchElement" type="search">
+            <input placeholder="Harus Isi Dulu yaa.." id="searchElement" type="search">
             <button id="searchButtonElement" type="submit">Search</button>
         </div>
         `;

@@ -1,12 +1,12 @@
 class DataSource {
     static searchClub(keyword) {
-        return fetch(`https://www.thesportsdb.com/api/v1/json/1/searchteams.php?t=${keyword}`)
+        return fetch(`http://www.omdbapi.com/?apikey=e0bb1fc3&s=${keyword}`)
             .then(response => {
                 return response.json();
             })
             .then(responseJson => {
-                if (responseJson.teams) {
-                    return Promise.resolve(responseJson.teams);
+                if (responseJson.Search) {
+                    return Promise.resolve(responseJson.Search);
                 } else {
                     return Promise.reject(`${keyword} is not found`);
                 }

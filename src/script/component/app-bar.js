@@ -30,7 +30,7 @@ class AppBar extends HTMLElement {
             padding: 16px;
         }
     </style>
-        <h2>5 Gunung Tertinggi di Jawa Barat</h2>`;
+        <h2>Search Movie</h2>`;
     }
 }
 
