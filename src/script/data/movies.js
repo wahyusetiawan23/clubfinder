@@ -1,4 +1,4 @@
-const clubs = [{
+const movies = [{
         name: "Gunung Ciremai",
         stadium: "Majalengka, Kuningan",
         fanArt: "https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1562162254/kemyrfembstmktd5oufp.jpg",
@@ -30,4 +30,4 @@ const clubs = [{
         description: "Gunung Papandayan (Aksara Sunda Baku: ᮌᮥᮔᮥᮀ ᮕᮕᮔ᮪ᮓᮚᮔ᮪) adalah gunung api strato[2] yang terletak di Kabupaten Garut, Jawa Barat tepatnya di Kecamatan Cisurupan. Gunung dengan ketinggian 2665 meter di atas permukaan laut itu terletak sekitar 70 km sebelah tenggara Kota Bandung. Pada Gunung Papandayan, terdapat beberapa kawah yang terkenal. Di antaranya Kawah Mas, Kawah Baru, Kawah Nangklak, dan Kawah Manuk. Kawah-kawah tersebut mengeluarkan uap dari sisi dalamnya.Topografi di dalam kawasan curam, berbukit dan bergunung serta terdapat tebing yang terjal. Menurut kalisifikasi Schmidt dan Ferguson termasuk type iklim B, dengan curah hujan rata-rata 3.000 mm/thn, kelembaban udara 70 – 80 % dan temperatur 10 °C."
     }
 ];
-export default clubs;
+export default movies;

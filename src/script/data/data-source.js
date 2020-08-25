@@ -1,5 +1,5 @@
 class DataSource {
-    static searchClub(keyword) {
+    static searchMovie(keyword) {
         return fetch(`http://www.omdbapi.com/?apikey=e0bb1fc3&s=${keyword}`)
             .then(response => {
                 return response.json();
